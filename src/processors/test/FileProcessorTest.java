@@ -57,7 +57,7 @@ public class FileProcessorTest extends TestCase {
 
 	@Test
 	public void testConvertExcelData() {
-		List<String[]> listOfLines = new ArrayList<>();
+		List<String[]> listOfLines = new ArrayList();
 		FileProcessor fileProcessor = new FileProcessor();
 		List<Customer> customers = null;
 		listOfLines.add(new String[] { "Mohit", "mohit.garg@sungard.com",

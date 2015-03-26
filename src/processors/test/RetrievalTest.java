@@ -27,13 +27,6 @@ public class RetrievalTest {
 		assert(custList != null );
 		
 	}
-
-	@Test
-	public void insertDataInDataBae() {
-		dao = new CustomerDaoImpl();
-		boolean value = dao.insertData();
-		assert(value);
-		
-	}
-	
 }
+	
+
